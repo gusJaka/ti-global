@@ -1,0 +1,46 @@
+/* Custom styles */
+body {
+    font-family:  sans-serif;
+}
+
+.head-background{
+    background-color: bisque;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.hero-image{
+    background-image: url('sea-164989_640.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+.hero-button{
+    background-color: bisque;
+}
+
+.hero-button:hover {
+    background-color: #d4af37;
+}
+
+.text-white-shadow{
+    color: white; 
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.jumbotron {
+    background-color: #86041d;
+    padding: 15rem 15rem;
+    margin-bottom: 2rem;
+}
+
+.card .card-body {
+    min-height: 250px;
+}
+
+.card-container {
+    transition: opacity 1s ease, transform 1s ease; /* Smooth transition */
+  }
